@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: "Poppins", serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34); 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+    margin-top: 5vh;
+    /* background-color: red; */
+}
+
+.header-title{
+    line-height: 4vh;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+    font-size: 18px;
+    /* background-color: red; */
+}
+
+.header-a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    transition: color 0.25s;
+}
+
+.header-a:hover{
+    color: rgb(131, 15, 198);
+    transition: 0.25s;
+}
+
+#header-b{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid rgb(131, 15, 198);
+    border-radius: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    transition: background-color 0.25s;
+}
+
+#header-b:hover{
+    background-color: rgb(131, 15, 198);
+    transition: 0.25s;
+}
+
+main{
+    color: white;
+    display: flex;
+    margin-top: 7vh;
+    /* background-color: red; */
+}
+
+.title-main{
+    font-size: 55px;
+    line-height: 6vh;
+}
+
+.text-main{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 18px;
+}
+
+span{
+    color: rgb(131, 15, 198);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 70%;
+    margin-top: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.button-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 70%;
+    /* background-color: red; */
+}
+
+.button{
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(131, 15, 198);
+    cursor: pointer;
+}
+
+figure{
+    margin-left: 4vw;
+    /* background-color: blue; */
+}

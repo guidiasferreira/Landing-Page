@@ -1,0 +1,36 @@
+@media screen and (max-width: 760px) {
+    header{
+        flex-direction: column;
+    }
+
+    .header-title{
+        margin-bottom: 3vh;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .title-main{
+        text-align: center;
+    }
+
+    .text-main{
+        text-align: center;
+    }
+
+    .input{
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+
+    .button-main{
+        margin: 0 auto;
+        margin-top: 2vh;
+
+    }
+
+    figure{
+        display: none;
+    }
+}
